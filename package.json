@@ -2,14 +2,15 @@
     "name": "korkonto",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://xnovak1.github.io/korkonto",
+    "homepage": "xnovak1.github.io/korkonto",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "preview": "vite preview",
         "lint": "eslint .",
         "build": "vite build",
-        "deploy": "npm run build && gh-pages -d build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "dependencies": {
         "react": "^19.1.0",
