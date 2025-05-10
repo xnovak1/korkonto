@@ -10,7 +10,7 @@ import Contact from "./pages/Contact"
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/korkonto" element={<HomePage />} />
+      <Route path="/korkonto/" element={<HomePage />} />
       <Route path="/korkonto/about-us" element={<AboutUs />} />
       <Route path="/korkonto/concerts" element={<Concerts />} />
       <Route path="/korkonto/discography" element={<Discography />} />
