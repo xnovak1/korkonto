@@ -1,32 +1,31 @@
 .follow-container {
-    background-color: #111;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .follow-title {
-    font-size: 28px;
-    margin-bottom: 15px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-size: 24px;
-  }
-  
-  .social-icons a {
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    color: #888;
-  }
-  
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.follow-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #888;
+}

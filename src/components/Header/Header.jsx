@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css"
+import "./Header.css";
 import { Link } from "react-router";
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
         <Link to="/korkonto/contact">Contact</Link>
       </nav>
     </header>
-  )
+  );
 }
 
 export default Header;
