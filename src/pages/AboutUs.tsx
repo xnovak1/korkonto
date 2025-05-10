@@ -3,6 +3,7 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import './HomePage.css'
+import { Link } from 'react-router'
 
 function AboutUs() {
   const [count, setCount] = useState(0)
@@ -10,14 +11,15 @@ function AboutUs() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <Link to="/korkonto">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </Link>
       </div>
       <h1>About Us</h1>
+      <h3><Link to="/korkonto/about-us">About Us</Link></h3>
+      <h3><Link to="/korkonto/concerts">Concerts</Link></h3>
+      <h3><Link to="/korkonto/discography">Discography</Link></h3>
+      <h3><Link to="/korkonto/contact">Contact</Link></h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
